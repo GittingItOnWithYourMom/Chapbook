@@ -1,14 +1,21 @@
+body{
+    background-color: white;
+    /* animation: 5s linear 0s infinite running rgb; */ss
+}
 #header{
     text-align: center;
     color: red;
 }
 #sideborder{
     border: 5px solid black;
+    background-color: white;
+    z-index: -10;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
     width: 700px;
     height: 2000px;
+    top: 0px;
 }
 p{
     text-align: center;
@@ -21,4 +28,20 @@ p{
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
+}
+.links{
+}
+
+@keyframes rgb {
+    0%{background-color: red;}
+    12.5%{background-color: orange;}
+    32%{background-color: yellow;}
+    50%{background-color: greenyellow;}
+    66%{background-color: blue;}
+    83%{background-color: purple;}
+    100%{background-color: rgb(255, 0, 242);}
+
+}
+.games{
+    border: 3px solid;s
 }
