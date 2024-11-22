@@ -43,5 +43,6 @@ p{
 
 }
 .games{
-    border: 3px solid;s
+    float: left;
+    margin: 5px;
 }
