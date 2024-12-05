@@ -5,10 +5,11 @@ body{
 #header{
     text-align: center;
     color: red;
+
 }
 #sideborder{
     border: 5px solid black;
-    background-color: white;
+    background-image: url("/imgs/cube\ pattern2.avif");
     z-index: -10;
     position: absolute;
     left: 50%;
