@@ -2,10 +2,12 @@ body{
     background-color: white;
     /* animation: 5s linear 0s infinite running rgb; */ss
 }
-#header{
+h1{
     text-align: center;
     color: red;
-
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal
 }
 #sideborder{
     border: 5px solid black;
@@ -29,8 +31,6 @@ p{
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-}
-.links{
 }
 
 @keyframes rgb {
