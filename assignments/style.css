@@ -1,12 +1,28 @@
 .fade-in-section {
-    opacity: 0;
-    transform: translateY(20vh);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-    will-change: opacity, visibility;
-  }
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
 .fade-in-section.is-visible {
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-  }
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+#america{
+  background-image: url(/imgs/merica.jpg);
+  background-size: 1100px;
+}
+#heaven{
+  background-image: url(/imgs/Multiverse-1.webp);
+  background-size: 1150px;
+}
+#identity{
+  background-image: url(/imgs/school_picture3.jpg);
+  background-size: 700px;
+  background-position: 700px;
+}
+.ptext{
+  color: white;
+}

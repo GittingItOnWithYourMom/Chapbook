@@ -24,8 +24,8 @@ p{
     text-align: center;
 }
 .ptitle{
-    color: blue;
-    font-weight: 200%;
+    color: red;
+    font-weight: bolder;
 }
 .cdiv{
     max-width: fit-content;
