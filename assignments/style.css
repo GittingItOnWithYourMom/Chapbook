@@ -12,16 +12,16 @@
 }
 #america{
   background-image: url(/imgs/merica.jpg);
-  background-size: 1100px;
+  background-size:cover;
 }
 #heaven{
   background-image: url(/imgs/Multiverse-1.webp);
-  background-size: 1150px;
+  background-size: cover;
 }
 #identity{
   background-image: url(/imgs/school_picture3.jpg);
-  background-size: 700px;
-  background-position: 700px;
+  background-size:cover;
+  background-position: 900px;
 }
 .ptext{
   color: white;
