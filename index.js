@@ -1,4 +1,5 @@
 var games = document.getElementsByClassName('games')
+var ricktext = document.getElementById('ricktext')
 
 function start_game(game) {
   if (game == 1){
@@ -13,4 +14,11 @@ function start_game(game) {
   if (game == 4){
     window.open('/web5/paradox escape/index.html')
   }
+}
+
+function rick() {
+    ricktext.textContent = '(rick is still in alpha development)'
+    setTimeout(function() {
+        ricktext.textContent = ''
+    }, 2000)
 }

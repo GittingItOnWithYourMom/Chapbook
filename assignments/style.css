@@ -11,6 +11,10 @@
   background-size:cover;
   background-position: 900px;
 }
+#fish{
+    background-image: url(/imgs/goldfish.jpg);
+    background-size: cover;
+}
 .ptext{
   color: white;
 }
