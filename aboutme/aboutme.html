@@ -21,7 +21,9 @@
     <div class="pbox">
         <p class="ptitle" style="margin-bottom: 0px;">My Favorite Muscians</p>
         <ol style="margin-top: 10px;">
-            <li>Mozart</li>
+            <br>
+            <audio id="mozart" src="music/Mozart Requiem.mp3"></audio><li style="float: left; margin-right: 5px;">Mozart</li>
+            <button id="b1" onclick="play_music(document.getElementById('mozart'), document.getElementById('b1'))">Play</button>
             <li>Beethoven</li>
             <li>Vivaldi</li>
             <li>John Williams</li>
@@ -35,5 +37,6 @@
         <p>The revelation: I get all my music from movies and video games cause I’m a massive nerd</p>
     </div>
     <br>
+    <script src="/index.js"/>
 </body>
 </html>

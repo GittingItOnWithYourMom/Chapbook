@@ -16,6 +16,18 @@ function start_game(game) {
   }
 }
 
+let playing = false
+function play_music(song, button) {
+  if (playing == false){
+    song.play()
+    playing = true
+    button.textContent = "stop"
+  }else{
+    button.textContent = "play"
+    song.stop()
+  }
+}
+
 function rick() {
     ricktext.textContent = '(rick is still in alpha development)'
     setTimeout(function() {
