@@ -16,7 +16,7 @@ function start_game(game) {
   }
 }
 
-let playing = false
+var playing = false
 function play_music(song, button) {
   if (playing == false){
     song.play()
