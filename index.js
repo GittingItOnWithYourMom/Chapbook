@@ -16,15 +16,14 @@ function start_game(game) {
   }
 }
 
-var playing = false
 function play_music(song, button) {
-  if (playing == false){
+  if (button.textContent == 'play'){
+    song.load()
     song.play()
-    playing = true
-    button.textContent = "stop"
+    button.textContent = 'stop'
   }else{
-    button.textContent = "play"
-    song.stop()
+    song.pause()
+    button.textContent = 'play'
   }
 }
 
