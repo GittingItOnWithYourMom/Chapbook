@@ -13,8 +13,6 @@ h1{
     border: 5px solid black;
     z-index: -10;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
     width: 700px;
     height: 1200px;
     top: 0px;
@@ -22,8 +20,6 @@ h1{
 #corridor{
     z-index: -11;
     position:absolute;  
-    left: 50%; 
-    transform: translate(-50%, 0);
     object-fit: cover; 
     width: 700px;
     height: 1200px;
@@ -40,6 +36,10 @@ p{
     /* max-width: fit-content; */
     margin-left: auto;
     margin-right: auto;
+}
+.cdiv2{
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 @keyframes rgb {
