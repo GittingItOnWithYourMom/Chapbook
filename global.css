@@ -41,6 +41,12 @@ p{
     left: 50%;
     transform: translate(-50%, 0);
 }
+.cdiv3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 @keyframes rgb {
     0%{background-color: red;}
