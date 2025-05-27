@@ -1,7 +1,9 @@
 body{
     margin: 10px;
-    background-image: url("/imgs/cube\ pattern2.avif");
-    /* animation: 5s linear 0s infinite running rgb; */
+    background-image: url("/imgs/cube pattern2.png");
+}
+.invert{
+    filter: invert(100%);
 }
 h1{
     text-align: center;
@@ -10,7 +12,7 @@ h1{
     font-style: normal
 }
 #sideborder{
-    border: 5px solid black;
+    border: 5px solid;
     z-index: -10;
     position: absolute;
     left: 50%; 
@@ -51,15 +53,22 @@ p{
 }
 
 @keyframes rgb {
-    0%{background-color: red;}
-    12.5%{background-color: orange;}
-    32%{background-color: yellow;}
-    50%{background-color: greenyellow;}
-    66%{background-color: blue;}
-    83%{background-color: purple;}
-    100%{background-color: rgb(255, 0, 242);}
+    0%{color: red;}
+    12.5%{color: orange;}
+    32%{color: yellow;}
+    50%{color: greenyellow;}
+    66%{color: blue;}
+    83%{color: purple;}
+    100%{color: rgb(255, 0, 242);}
 
 }
+@keyframes seizure {
+    0%{filter: invert(0%); background-image: url("/imgs/cube pattern2.png");}
+    50%{filter: invert(100%); background-image: url("/imgs/cube pattern2 - inverted.png");}
+    100%{filter: invert(0%); background-image: url("/imgs/cube pattern2.png");}
+
+}
+
 .pbox {
     border: 5px solid;
     background-color: white;
