@@ -1,5 +1,6 @@
 var games = document.getElementsByClassName('games')
 var ricktext = document.getElementById('ricktext')
+var subway = document.getElementById('subway')
 
 function start_game(game) {
   if (game == 1){
@@ -16,11 +17,15 @@ function start_game(game) {
   }
 }
 
-function play_music(song, button) {
+function play_music(song, button){
   if (button.textContent == 'play'){
     song.load()
     song.play()
     button.textContent = 'stop'
+  }if (button.textContent == 'Begin Accelerated Learning Experience') {
+    song.load()
+    song.play()
+    subway.hidden = false
   }else{
     song.pause()
     button.textContent = 'play'
