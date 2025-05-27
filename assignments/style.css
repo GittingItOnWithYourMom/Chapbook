@@ -12,8 +12,12 @@
   background-position: 900px;
 }
 #fish{
-    background-image: url(/gallery/);
+    background-image: url(/imgs/goldfish.jpg);
     background-size: cover;
+}
+#beauty{
+  background-image: url(/imgs/smeagol.jpeg);
+  background-size: cover;
 }
 .ptext{
   color: white;

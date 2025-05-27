@@ -28,6 +28,10 @@ window.onload = function() {
             seizure.checked = true
         }
     }
+    // if (current_song){
+    //     current_song.load()
+    //     current_song.play()
+    // }
 }
 
 function changemode(mode){
@@ -77,10 +81,12 @@ function start_game(game) {
   }
 }
 
+// let current_song = sessionStorage.getItem("current_song")
 function play_music(song, button){
   if (button.textContent == 'play'){
     song.load()
     song.play()
+    // sessionStorage.setItem("current_song", song)
     button.textContent = 'stop'
   }if (button.textContent == 'Begin Accelerated Learning Experience') {
     song.load()
@@ -88,6 +94,7 @@ function play_music(song, button){
     subway.hidden = false
   }else{
     song.pause()
+    // sessionStorage.setItem("current_song", false)
     button.textContent = 'play'
   }
 }
