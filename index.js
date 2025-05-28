@@ -88,7 +88,7 @@ function play_music(song, button){
     song.play()
     // sessionStorage.setItem("current_song", song)
     button.textContent = 'stop'
-  }if (button.textContent == 'Begin Accelerated Learning Experience') {
+  }else if (button.textContent == 'Begin Accelerated Learning Experience') {
     song.load()
     song.play()
     subway.hidden = false
